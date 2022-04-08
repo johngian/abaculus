@@ -1,6 +1,6 @@
 {
 	"name": "@kartotherian/abaculus",
-	"version": "3.0.3-wikimedia.1",
+	"version": "3.0.3-wikimedia.2",
 	"description": "stitches map tiles together for high-res exporting from tm2",
 	"main": "index.js",
 	"contributors": [
@@ -11,15 +11,15 @@
 		"url": "https://github.com/kartotherian/abaculus.git"
 	},
 	"dependencies": {
-		"@kartotherian/tilelive-bridge": "^3.1.1-wikimedia.0",
-		"@mapbox/sphericalmercator": "1.0.x",
-		"d3-queue": "^2.0.2"
+		"@mapbox/tilelive-bridge": "^3.2.1",
+		"@mapbox/sphericalmercator": "^1.2.0",
+		"d3-queue": "^3.0.7"
 	},
 	"devDependencies": {
-		"@kartotherian/mapnik": "~3.7.3-wikimedia.0",
+		"mapnik": "^4.5.9",
 		"mocha": "2.x"
 	},
 	"peerDependencies": {
-		"@kartotherian/mapnik": "~3.7.3-wikimedia.0"
+		"mapnik": "^4.5.9"
 	}
 }
